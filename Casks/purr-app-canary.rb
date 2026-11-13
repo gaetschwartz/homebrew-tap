@@ -1,4 +1,4 @@
-cask "purr-app@canary" do
+cask "purr-app-canary" do
   version "0.1.0-canary.336"
   sha256 "3d5f4a492c8b0f5ac9fdb7e130dc8ad582259ab0bc41f850bfaeae51fd34648c"
 
@@ -13,7 +13,7 @@ cask "purr-app@canary" do
 
   conflicts_with cask: "purr-app"
   depends_on arch: :arm64
-  depends_on formula: "gaetschwartz/tap/purr@canary"
+  depends_on formula: "gaetschwartz/tap/purr-canary"
 
   app "purr-app.app"
 

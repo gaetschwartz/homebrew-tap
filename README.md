@@ -11,8 +11,8 @@ brew tap gaetschwartz/tap
 | --- | --- | --- | --- |
 | `brew install gaetschwartz/tap/purr` | `purr` command-line tool | macOS Apple Silicon, Linux x86-64 | latest release |
 | `brew install --cask gaetschwartz/tap/purr-app` | Purr desktop app, plus the command-line tool | macOS Apple Silicon | latest release |
-| `brew install gaetschwartz/tap/purr@canary` | `purr` command-line tool | macOS Apple Silicon, Linux x86-64 | latest canary |
-| `brew install --cask gaetschwartz/tap/purr-app@canary` | Purr desktop app, plus the command-line tool | macOS Apple Silicon | latest canary |
+| `brew install gaetschwartz/tap/purr-canary` | `purr` command-line tool | macOS Apple Silicon, Linux x86-64 | latest canary |
+| `brew install --cask gaetschwartz/tap/purr-app-canary` | Purr desktop app, plus the command-line tool | macOS Apple Silicon | latest canary |
 
 The stable and canary packages conflict with each other, so install one channel at a time. Canaries
 move forward with `brew upgrade`.

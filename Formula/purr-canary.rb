@@ -1,4 +1,4 @@
-class PurrATCanary < Formula
+class PurrCanary < Formula
   desc "Transcribe audio files and URLs with Whisper"
   homepage "https://github.com/gaetschwartz/purr"
   version "0.1.0-canary.336"
