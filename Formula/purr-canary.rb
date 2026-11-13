@@ -1,21 +1,21 @@
 class PurrCanary < Formula
   desc "Transcribe audio files and URLs with Whisper"
   homepage "https://github.com/gaetschwartz/purr"
-  version "0.1.0-canary.336"
+  version "0.1.0-canary.338"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
 
-    url "https://github.com/gaetschwartz/purr/releases/download/canary-0.1.0-canary.336/purr-cli-macos-arm64-metal.tar.gz"
-    sha256 "093731715c0ccfe2f1dc98105497ed8c9871d5a17328cfd259d8f341879d46ff"
+    url "https://github.com/gaetschwartz/purr/releases/download/canary-0.1.0-canary.338/purr-cli-macos-arm64-metal.tar.gz"
+    sha256 "f98ff107db56a5669d98e65d46e36ecf60fc07946b1b156085e17c3f3b5538b8"
   end
 
   on_linux do
     depends_on arch: :x86_64
 
-    url "https://github.com/gaetschwartz/purr/releases/download/canary-0.1.0-canary.336/purr-cli-linux-x64-all.tar.gz"
-    sha256 "065e7f1d399173ba9d622850f43dc861f9118d53cc43649f0455f0a99cfb6be0"
+    url "https://github.com/gaetschwartz/purr/releases/download/canary-0.1.0-canary.338/purr-cli-linux-x64-all.tar.gz"
+    sha256 "bad3f736964751e7577dd48c9ca56f3a717d3d6b899c918965fe4bf7c3fd8a93"
   end
 
   livecheck do
