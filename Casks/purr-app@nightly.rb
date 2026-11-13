@@ -1,6 +1,6 @@
 cask "purr-app@nightly" do
-  version "2026.11.12"
-  sha256 "368af0ad95056bb2c46956d0327a1d3108c257c58b4a07c11f7cec68c27410d7"
+  version "2026.11.13"
+  sha256 "ffaf222665e584b50363a9bd8d6d0cbc882afb5920e4eb4a9d4d6d4ac0a9671b"
 
   url "https://github.com/gaetschwartz/purr/releases/download/nightly-#{version}/purr-desktop-macos-arm64-metal.dmg"
   name "Purr"
