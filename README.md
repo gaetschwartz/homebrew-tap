@@ -11,10 +11,10 @@ brew tap gaetschwartz/tap
 | --- | --- | --- | --- |
 | `brew install gaetschwartz/tap/purr` | `purr` command-line tool | macOS Apple Silicon, Linux x86-64 | latest release |
 | `brew install --cask gaetschwartz/tap/purr-app` | Purr desktop app, plus the command-line tool | macOS Apple Silicon | latest release |
-| `brew install gaetschwartz/tap/purr@nightly` | `purr` command-line tool | macOS Apple Silicon, Linux x86-64 | latest nightly |
-| `brew install --cask gaetschwartz/tap/purr-app@nightly` | Purr desktop app, plus the command-line tool | macOS Apple Silicon | latest nightly |
+| `brew install gaetschwartz/tap/purr@canary` | `purr` command-line tool | macOS Apple Silicon, Linux x86-64 | latest canary |
+| `brew install --cask gaetschwartz/tap/purr-app@canary` | Purr desktop app, plus the command-line tool | macOS Apple Silicon | latest canary |
 
-The stable and nightly packages conflict with each other, so install one channel at a time. Nightlies
+The stable and canary packages conflict with each other, so install one channel at a time. Canaries
 move forward with `brew upgrade`.
 
 - **macOS:** the desktop app is not notarized; the cask removes the quarantine flag on install.
