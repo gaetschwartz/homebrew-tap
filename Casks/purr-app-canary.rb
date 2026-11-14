@@ -1,6 +1,6 @@
 cask "purr-app-canary" do
-  version "0.1.0-canary.346"
-  sha256 "056660633a649d83f43b93e81ef33b5cd78468685325a4ea9d0c8cc3b8fc2345"
+  version "0.1.0-canary.347"
+  sha256 "55a0d7f15e42643fa94061984460577dfe68d26b2343bbfdd6ecb85d6ace3226"
 
   url "https://github.com/gaetschwartz/purr/releases/download/canary-#{version}/purr-desktop-macos-arm64-metal.dmg"
   name "Purr"
