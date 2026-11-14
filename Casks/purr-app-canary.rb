@@ -1,10 +1,10 @@
 cask "purr-app-canary" do
-  version "0.1.0-canary.353"
-  sha256 "a3fca42212cd4bc37546e913e08c5bcdcc45862212edb5446a6b26ad832ea9fa"
+  version "0.1.0-canary.354"
+  sha256 "7976dd9d80b4ce0b473e15a7293135a7920acdb5a6c9b6f67318f4b75d178a21"
 
   url "https://github.com/gaetschwartz/purr/releases/download/canary-#{version}/purr-desktop-macos-arm64-metal.dmg"
   name "Purr"
-  desc "Transcribe audio files and URLs with Whisper"
+  desc "Transcribe audio files and URLs on this computer"
   homepage "https://github.com/gaetschwartz/purr"
 
   livecheck do
@@ -18,8 +18,8 @@ cask "purr-app-canary" do
   app "purr-app.app"
 
   # The app is not notarized, so Gatekeeper would refuse to open it.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/purr-app.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/purr-app.app"]
   end
 end
